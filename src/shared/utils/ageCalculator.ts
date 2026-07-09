@@ -5,40 +5,44 @@ export function getAgeType(age: number): UserAgeType {
     return "maloy";
   }
 
-  if (age <= 10) {
+  if (age <= 12) {
     return "maloy";
   }
 
-  if (age <= 18) {
+  if (age <= 17) {
     return "pedrostok";
   }
 
-  if (age <= 30) {
+  if (age <= 29) {
     return "seredinochka";
   }
 
-  if (age <= 45) {
+  if (age <= 49) {
     return "pensiya";
   }
 
-  if (age <= 60) {
+  if (age <= 69) {
     return "ded perdun";
   }
 
-  if (age <= 90) {
+  if (age <= 99) {
     return "stariy izvrashenets";
   }
 
-  if (age <= 120) {
+  if (age <= 129) {
     return "espenis bala";
   }
 
-  if (age <= 150) {
+  if (age <= 159) {
     return "bagamot";
   }
 
-  if (age <= 200) {
+  if (age <= 199) {
     return "sigma ded";
+  }
+
+  if (age <= 499) {
+    return "kak tiy eshe giv";
   }
 
   return "ultimate boss";
